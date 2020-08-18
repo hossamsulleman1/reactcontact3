@@ -11,13 +11,13 @@ const useStyles = makeStyles(() => ({
 
 
 const Header = () => {
-const classes = useStyles();
+const classes = useStyles()
 
     return (
         <AppBar position="static">
             {/* position static is a prop that can be supplioed to the material ui element this keeps the app bar persistent */}
             <Toolbar>
-                <Typography className="classes.typographyStyles">
+                <Typography>
                    Hossam Sulleman
                    <ShareIcon/>
                 </Typography>
