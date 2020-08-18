@@ -3,7 +3,6 @@ import { Grid } from "@material-ui/core";
 import Header from "./components/Header.jsx"
 import Content from "./components/Content.jsx"
 
-
 const App = () => {
   return (
     <Grid container direction="column">
@@ -18,7 +17,7 @@ const App = () => {
 
 <Grid item xs={12} sm={8}>
 {/* this is where the content will be  */}
-<Content/>
+</C
 </Grid>
         
         <Grid item xs={0} sm={2} />

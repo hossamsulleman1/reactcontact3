@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import Header from "./components/Header.jsx"
 import Content from "./components/Content.jsx"
-
+import Card from "./components/Card.jsx"
 
 const App = () => {
   return (
