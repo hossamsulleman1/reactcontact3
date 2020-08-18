@@ -1,13 +1,12 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import Header from "./components/Header.jsx"
+
 
 const App = () => {
   return (
     <Grid container direction="column">
       <Grid item>
         {/* this is where the header will be  */}
-        <Header/>
       </Grid>
               {/* grids can be items grids containers or both at the same time  */}
       <Grid item container>

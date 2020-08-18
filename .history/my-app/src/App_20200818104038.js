@@ -7,7 +7,7 @@ const App = () => {
     <Grid container direction="column">
       <Grid item>
         {/* this is where the header will be  */}
-        <Header/>
+        <
       </Grid>
               {/* grids can be items grids containers or both at the same time  */}
       <Grid item container>
