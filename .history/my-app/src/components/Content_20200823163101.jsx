@@ -17,6 +17,5 @@ return (
         {itemList.map(itemListObj => getItemCard(itemListObj))}
     </Grid>
 );
-
 };
 export default Content;

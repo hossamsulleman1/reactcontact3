@@ -12,11 +12,4 @@ const getItemCard = itemListObj => {
     );
 };
 
-return (
-    <Grid container spacing={2}>
-        {itemList.map(itemListObj => getItemCard(itemListObj))}
-    </Grid>
-);
-
-};
 export default Content;

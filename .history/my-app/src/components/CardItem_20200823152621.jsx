@@ -10,8 +10,6 @@ import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import ShareIcon from '@material-ui/icons/Share';
-import CardMedia from '@material-ui/core/CardMedia';
-
 
 const useStyles = makeStyles({
   bullet: {
@@ -29,33 +27,28 @@ const useStyles = makeStyles({
 
 
   
-  const CardItem = (props) => {
+  const CardItem = () => {
     const classes = useStyles();
     const bull = <span className={classes.bullet}>•</span>;
-  const { avatarSrc, title, subtitle, description, imgSrc } = props;
+  const { avatarSrc, title, subtitle, description, imgSrc }
 
 
     return (
         <Card >
            <CardHeader
         avatar={
-          <Avatar src={avatarSrc}/>
+          <Avatar aria-label="recipe" className={classes.avatar}>
+            R
+          </Avatar>
         }
         action={
           <IconButton aria-label="settings">
             <ShareIcon/>
           </IconButton>
         }
-        title={title}
-        subheader={subtitle}
+        title="Shrimp and Chorizo Paella"
+        subheader="September 14, 2016"
       />
-
-<CardMedia style={{height: "150px"}} image={imgSrc}
-        image="/static/images/cards/paella.jpg"
-        title="Paella dish"
-
-      />
-
           <CardContent>
             <Typography className={classes.title} color="textSecondary" gutterBottom>
               Word of the Day
@@ -73,8 +66,6 @@ const useStyles = makeStyles({
             </Typography>
           </CardContent>
           <CardActions>
-            {/* CARD BUTTONS BUY ECT  */}
-            <Button size="small">Learn More</Button>
             <Button size="small">Learn More</Button>
           </CardActions>
         </Card>

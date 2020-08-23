@@ -13,6 +13,7 @@ import ShareIcon from '@material-ui/icons/Share';
 import CardMedia from '@material-ui/core/CardMedia';
 
 
+
 const useStyles = makeStyles({
   bullet: {
     display: 'inline-block',
@@ -73,7 +74,7 @@ const useStyles = makeStyles({
             </Typography>
           </CardContent>
           <CardActions>
-            {/* CARD BUTTONS BUY ECT  */}
+            {/* CARD BUTTONS  */}
             <Button size="small">Learn More</Button>
             <Button size="small">Learn More</Button>
           </CardActions>

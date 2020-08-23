@@ -10,7 +10,7 @@ import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import ShareIcon from '@material-ui/icons/Share';
-import CardMedia from '@material-ui/core/CardMedia';
+
 
 
 const useStyles = makeStyles({
@@ -50,10 +50,10 @@ const useStyles = makeStyles({
         subheader={subtitle}
       />
 
-<CardMedia style={{height: "150px"}} image={imgSrc}
+<CardMedia
+        className={classes.media}
         image="/static/images/cards/paella.jpg"
         title="Paella dish"
-
       />
 
           <CardContent>
@@ -73,8 +73,6 @@ const useStyles = makeStyles({
             </Typography>
           </CardContent>
           <CardActions>
-            {/* CARD BUTTONS BUY ECT  */}
-            <Button size="small">Learn More</Button>
             <Button size="small">Learn More</Button>
           </CardActions>
         </Card>

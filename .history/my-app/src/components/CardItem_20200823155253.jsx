@@ -13,6 +13,7 @@ import ShareIcon from '@material-ui/icons/Share';
 import CardMedia from '@material-ui/core/CardMedia';
 
 
+
 const useStyles = makeStyles({
   bullet: {
     display: 'inline-block',
@@ -50,7 +51,7 @@ const useStyles = makeStyles({
         subheader={subtitle}
       />
 
-<CardMedia style={{height: "150px"}} image={imgSrc}
+<CardMedia style={height: ""} image={img}
         image="/static/images/cards/paella.jpg"
         title="Paella dish"
 
@@ -73,8 +74,6 @@ const useStyles = makeStyles({
             </Typography>
           </CardContent>
           <CardActions>
-            {/* CARD BUTTONS BUY ECT  */}
-            <Button size="small">Learn More</Button>
             <Button size="small">Learn More</Button>
           </CardActions>
         </Card>
