@@ -19,7 +19,7 @@ const App = () => {
 {/* <Content/> */}
 
 <Grid item container>
-<IntroPara></IntroPara>
+// <IntroPara></IntroPara>
 
 <Grid item xs={1/2} >
 

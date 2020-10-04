@@ -19,16 +19,12 @@ const App = () => {
 {/* <Content/> */}
 
 <Grid item container>
-<IntroPara></IntroPara>
 
 <Grid item xs={1/2} >
 
 </Grid>
 
-<Grid item xs={1/2}>
-<HomeSvg></HomeSvg>
 
-</Grid>
 
 
 </Grid>

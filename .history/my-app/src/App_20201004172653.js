@@ -18,17 +18,9 @@ const App = () => {
 {/* this is where the content will be  */}
 {/* <Content/> */}
 
-<Grid item container>
-<IntroPara></IntroPara>
+<Grid item container >
 
-<Grid item xs={1/2} >
-
-</Grid>
-
-<Grid item xs={1/2}>
-<HomeSvg></HomeSvg>
-
-</Grid>
+<Grid item 
 
 
 </Grid>
